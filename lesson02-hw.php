@@ -65,8 +65,8 @@ echo 'false === 0: ', var_export(false === 0, true), NL;
 // Какая строка длиннее three - три
 $str1 = 'three';
 $str2 = 'три';
-$str1_length = mb_strlen($str1);
-$str2_length = mb_strlen($str2);
+$str1_length = strlen($str1);
+$str2_length = strlen($str2);
 
 echo "<p>", PHP_EOL;
 if ($str1_length > $str2_length) {
