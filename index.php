@@ -1,5 +1,6 @@
 <?php
 
+/*
 $a = "11";
 echo '<br/>$a: ';
 var_export($a);
@@ -13,3 +14,6 @@ var_export($a == $b);
 
 echo '<br/>$a === $b: ';
 var_export($a === $b);
+*/
+
+// Lesson 3: start
